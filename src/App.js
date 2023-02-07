@@ -5,13 +5,7 @@ import image from './me.jpg';
 
 function App() {
 
-  let alerted = false;
-  const handleName = (name) => {
-    if (!alerted) {
-      alert(`Hi, I'm ${name}`);
-      alerted = true;
-    }
-  };
+  const handleName=(name)=> {alert (`Hi I'm ${name}`)}
 
   return (
     <div className="App">

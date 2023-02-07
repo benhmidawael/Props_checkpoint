@@ -8,8 +8,19 @@ function ComponentProfile(props) {
                 <p style={{fontSize:"35px"}}>{props.bio}</p>
                 <h3 style={{fontSize:"30px"}}>{props.profession}</h3> 
                {props.children} 
-               {props.handleName(props.fullName)}
-
+               
+               <button onClick={()=>props.handleName(props.fullName)}
+                    style={{
+                    backgroundColor: '#7286D3',
+                    border:'none',
+                    color: 'white',
+                    padding: '10px 20px',
+                    borderRadius: '5px',
+                    marginTop:'20px',
+                    cursor: 'pointer',
+                }}>
+                    Click Me !
+                </button>
         </div>
   
     ) 
