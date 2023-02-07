@@ -11,7 +11,7 @@ function App() {
     <div className="App">
        <Profile fullName="Ben Hmida Wael"
            bio="Hi there !"
-           profession="Mana5demch !"
+           profession="Student"
            handleName={handleName}
            >
         <div>
